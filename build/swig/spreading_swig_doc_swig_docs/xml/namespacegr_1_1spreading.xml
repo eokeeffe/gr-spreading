@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1spreading" kind="namespace" language="C++">
+    <compoundname>gr::spreading</compoundname>
+    <innerclass refid="classgr_1_1spreading_1_1zcz__codesync__despreading" prot="public">gr::spreading::zcz_codesync_despreading</innerclass>
+    <innerclass refid="classgr_1_1spreading_1_1zcz__despreading" prot="public">gr::spreading::zcz_despreading</innerclass>
+    <innerclass refid="classgr_1_1spreading_1_1zcz__spreading" prot="public">gr::spreading::zcz_spreading</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/zcz_codesync_despreading.h" line="30" column="1"/>
+  </compounddef>
+</doxygen>

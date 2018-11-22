@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include</compoundname>
+    <innerdir refid="dir_6631c86d845d35c65122c956533d500b">/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/"/>
+  </compounddef>
+</doxygen>

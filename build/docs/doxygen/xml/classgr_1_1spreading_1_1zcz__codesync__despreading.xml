@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1spreading_1_1zcz__codesync__despreading" kind="class" language="C++" prot="public">
+    <compoundname>gr::spreading::zcz_codesync_despreading</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_decimator</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl" prot="public" virt="non-virtual">gr::spreading::zcz_codesync_despreading_impl</derivedcompoundref>
+    <includes refid="zcz__codesync__despreading_8h" local="no">zcz_codesync_despreading.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1spreading_1_1zcz__codesync__despreading_1a78945574ffbf8881f6395d9d818da52f" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1spreading_1_1zcz__codesync__despreading" kindref="compound">zcz_codesync_despreading</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;zcz_codesync_despreading&gt; gr::spreading::zcz_codesync_despreading::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/zcz_codesync_despreading.h" line="40" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/zcz_codesync_despreading.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1spreading_1_1zcz__codesync__despreading_1a67375a31497e5ddcfd71ab73d8256c3b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1spreading_1_1zcz__codesync__despreading_1a78945574ffbf8881f6395d9d818da52f" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::spreading::zcz_codesync_despreading::make</definition>
+        <argsstring>(int bit_vector_length, std::vector&lt; float &gt; user_code)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>bit_vector_length</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>user_code</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1spreading_1_1zcz__codesync__despreading" kindref="compound">spreading::zcz_codesync_despreading</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1spreading_1_1zcz__codesync__despreading" kindref="compound">spreading::zcz_codesync_despreading</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1spreading_1_1zcz__codesync__despreading_1a67375a31497e5ddcfd71ab73d8256c3b" kindref="member">spreading::zcz_codesync_despreading::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/zcz_codesync_despreading.h" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>gr::spreading::zcz_codesync_despreading_impl</label>
+        <link refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="18">
+        <label>gr::spreading::zcz_codesync_despreading</label>
+        <link refid="classgr_1_1spreading_1_1zcz__codesync__despreading"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="21">
+        <label>gr::spreading::zcz_codesync_despreading</label>
+        <link refid="classgr_1_1spreading_1_1zcz__codesync__despreading"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/zcz_codesync_despreading.h" line="38" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/zcz_codesync_despreading.h" bodystart="37" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading_1a67375a31497e5ddcfd71ab73d8256c3b" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_codesync_despreading</scope><name>make</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading_1a78945574ffbf8881f6395d9d818da52f" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_codesync_despreading</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

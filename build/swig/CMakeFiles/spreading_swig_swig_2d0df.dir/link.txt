@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/spreading_swig_swig_2d0df.dir/spreading_swig_swig_2d0df.cpp.o  -o spreading_swig_swig_2d0df  -L/usr/local/lib 

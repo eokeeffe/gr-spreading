@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="zcz__codesync__despreading_8h" local="no">zcz_codesync_despreading.h</includedby>
+    <includedby refid="zcz__despreading_8h" local="no">zcz_despreading.h</includedby>
+    <includedby refid="zcz__spreading_8h" local="no">zcz_spreading.h</includedby>
+    <incdepgraph>
+      <node id="61">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="65">
+        <label>zcz_codesync_despreading_impl.h</label>
+        <link refid="zcz__codesync__despreading__impl_8h"/>
+      </node>
+      <node id="68">
+        <label>zcz_spreading.h</label>
+        <link refid="zcz__spreading_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>zcz_despreading_impl.h</label>
+        <link refid="zcz__despreading__impl_8h"/>
+      </node>
+      <node id="69">
+        <label>zcz_spreading_impl.h</label>
+        <link refid="zcz__spreading__impl_8h"/>
+      </node>
+      <node id="64">
+        <label>zcz_codesync_despreading.h</label>
+        <link refid="zcz__codesync__despreading_8h"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>zcz_despreading.h</label>
+        <link refid="zcz__despreading_8h"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a0f0e8944b0cb81e9636b9988323d93c6" prot="public" static="no">
+        <name>SPREADING_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/api.h" line="30" column="12" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/api.h"/>
+  </compounddef>
+</doxygen>

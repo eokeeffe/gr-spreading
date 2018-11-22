@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1spreading_1_1zcz__despreading__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::spreading::zcz_despreading_impl</compoundname>
+    <basecompoundref refid="classgr_1_1spreading_1_1zcz__despreading" prot="public" virt="non-virtual">gr::spreading::zcz_despreading</basecompoundref>
+    <includes refid="zcz__despreading__impl_8h" local="no">zcz_despreading_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a3b1cbaac5a928570ae8c696015140306" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::bit_vector_length</definition>
+        <argsstring></argsstring>
+        <name>bit_vector_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="33" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1aa611a179aed54f11e2f9d6a356a03860" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::spreading::zcz_despreading_impl::despreading_code</definition>
+        <argsstring></argsstring>
+        <name>despreading_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="34" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a01f04900dcc40cba4084a00ad048d1d0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::check1</definition>
+        <argsstring></argsstring>
+        <name>check1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="36" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a4536b7527ce7095735c02ce1e6d0ddb5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::initial_no_items</definition>
+        <argsstring></argsstring>
+        <name>initial_no_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="36" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1ad11819a3122ede2c0f4b8e94b9ccfa7b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::no_items</definition>
+        <argsstring></argsstring>
+        <name>no_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="37" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1ad83e703b503c12338ecfee663dd65854" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::new_sync_pos</definition>
+        <argsstring></argsstring>
+        <name>new_sync_pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="37" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a4a1e777b936ce9e0101a4de2c078fabc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::check</definition>
+        <argsstring></argsstring>
+        <name>check</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="38" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1ad3c622462e60a8b6af5015718cf113d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::track</definition>
+        <argsstring></argsstring>
+        <name>track</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="38" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1abdc5df8c7ec13683e9be63e32b6bdb8a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::d_decim</definition>
+        <argsstring></argsstring>
+        <name>d_decim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="40" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a88f6c2562f8860eb037bd7875860e2da" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::code_len</definition>
+        <argsstring></argsstring>
+        <name>code_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="41" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a35d827f3fe7633114aa985d62903874f" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::spreading::zcz_despreading_impl::in_buffer</definition>
+        <argsstring></argsstring>
+        <name>in_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="42" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a74b78e43182278acebefeb4ad6fc3007" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::spreading::zcz_despreading_impl::sig</definition>
+        <argsstring></argsstring>
+        <name>sig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="43" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1spreading_1_1zcz__despreading__impl_1ac86b45b6de9cee8ca53b857e551bd834" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::spreading::zcz_despreading_impl::zcz_despreading_impl</definition>
+        <argsstring>(int bit_vector_length, std::vector&lt; float &gt; despreading_code)</argsstring>
+        <name>zcz_despreading_impl</name>
+        <param>
+          <type>int</type>
+          <declname>bit_vector_length</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>despreading_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1spreading_1_1zcz__despreading__impl_1ae06db6724b371689858aba9290eec115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::spreading::zcz_despreading_impl::~zcz_despreading_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~zcz_despreading_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a6b4f40c629f5f7b9b73c3f691906fa51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::set_bit_length</definition>
+        <argsstring>(int bit_vector_length)</argsstring>
+        <name>set_bit_length</name>
+        <param>
+          <type>int</type>
+          <declname>bit_vector_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1spreading_1_1zcz__despreading__impl_1ad32bdbf1efde92e68fb6713c410c558e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::set_bitvector</definition>
+        <argsstring>(std::vector&lt; float &gt; despreading_code)</argsstring>
+        <name>set_bitvector</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>despreading_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1spreading_1_1zcz__despreading__impl_1ac3d719b76b51e53fddcba62b2f3039d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::skip_data</definition>
+        <argsstring>(int noutput_items)</argsstring>
+        <name>skip_data</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1spreading_1_1zcz__despreading__impl_1a4d6c58bad6c5b4fcfe4df89877b6ff92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::synchronization</definition>
+        <argsstring>(gr_complex sig[], std::vector&lt; float &gt; code_waveform, int d_len)</argsstring>
+        <name>synchronization</name>
+        <param>
+          <type>gr_complex</type>
+          <declname>sig</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>code_waveform</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1spreading_1_1zcz__despreading__impl_1afdd862327de1c3e33c461d690fa92952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::spreading::zcz_despreading_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="56" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>gr::spreading::zcz_despreading_impl</label>
+        <link refid="classgr_1_1spreading_1_1zcz__despreading__impl"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>sync_decimator</label>
+      </node>
+      <node id="35">
+        <label>gr::spreading::zcz_despreading</label>
+        <link refid="classgr_1_1spreading_1_1zcz__despreading"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>gr::spreading::zcz_despreading_impl</label>
+        <link refid="classgr_1_1spreading_1_1zcz__despreading__impl"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>sync_decimator</label>
+      </node>
+      <node id="38">
+        <label>gr::spreading::zcz_despreading</label>
+        <link refid="classgr_1_1spreading_1_1zcz__despreading"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" line="30" column="1" bodyfile="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/lib/zcz_despreading_impl.h" bodystart="29" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a3b1cbaac5a928570ae8c696015140306" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>bit_vector_length</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a4a1e777b936ce9e0101a4de2c078fabc" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>check</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a01f04900dcc40cba4084a00ad048d1d0" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>check1</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a88f6c2562f8860eb037bd7875860e2da" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>code_len</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1abdc5df8c7ec13683e9be63e32b6bdb8a" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>d_decim</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1aa611a179aed54f11e2f9d6a356a03860" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>despreading_code</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a35d827f3fe7633114aa985d62903874f" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>in_buffer</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a4536b7527ce7095735c02ce1e6d0ddb5" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>initial_no_items</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading_1afbe2e1fd878345e7a2b114de80cc5ff6" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ad83e703b503c12338ecfee663dd65854" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>new_sync_pos</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ad11819a3122ede2c0f4b8e94b9ccfa7b" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>no_items</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a6b4f40c629f5f7b9b73c3f691906fa51" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>set_bit_length</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ad32bdbf1efde92e68fb6713c410c558e" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>set_bitvector</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a74b78e43182278acebefeb4ad6fc3007" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>sig</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ac3d719b76b51e53fddcba62b2f3039d6" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>skip_data</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading_1a7f18d90c5665e85b9e8c536e1f80c100" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a4d6c58bad6c5b4fcfe4df89877b6ff92" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>synchronization</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ad3c622462e60a8b6af5015718cf113d4" prot="private" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>track</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1afdd862327de1c3e33c461d690fa92952" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ac86b45b6de9cee8ca53b857e551bd834" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>zcz_despreading_impl</name></member>
+      <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ae06db6724b371689858aba9290eec115" prot="public" virt="non-virtual"><scope>gr::spreading::zcz_despreading_impl</scope><name>~zcz_despreading_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

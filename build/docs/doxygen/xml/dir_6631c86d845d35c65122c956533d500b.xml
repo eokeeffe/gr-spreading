@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_6631c86d845d35c65122c956533d500b" kind="dir">
+    <compoundname>spreading</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="zcz__codesync__despreading_8h">zcz_codesync_despreading.h</innerfile>
+    <innerfile refid="zcz__despreading_8h">zcz_despreading.h</innerfile>
+    <innerfile refid="zcz__spreading_8h">zcz_spreading.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/evan/SignalProcessing/GNURadio-Modules/gr-spreading/include/spreading/"/>
+  </compounddef>
+</doxygen>

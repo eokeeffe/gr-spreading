@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<block>
+  <name>zcz_despreading</name>
+  <key>spreading_zcz_despreading</key>
+  <category>[spreading]</category>
+  <import>import spreading</import>
+  <make>spreading.zcz_despreading($spread_key_length,$spread_key)</make>
+  <param>
+    <name>Spreading Key</name>
+    <key>spread_key</key>
+    <type>float_vector</type>
+  </param>
+  <param>
+    <name>Spreading Key Length</name>
+    <key>spread_key_length</key>
+    <type>int</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

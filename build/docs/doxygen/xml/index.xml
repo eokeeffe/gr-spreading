@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1spreading_1_1zcz__codesync__despreading" kind="class"><name>gr::spreading::zcz_codesync_despreading</name>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading_1a78945574ffbf8881f6395d9d818da52f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading_1a67375a31497e5ddcfd71ab73d8256c3b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl" kind="class"><name>gr::spreading::zcz_codesync_despreading_impl</name>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1ad351758d4ae256ac54905047c6ff08d6" kind="variable"><name>bitvector</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1af4d99c6a8c1c77f2e16a1ec766fc936b" kind="variable"><name>bitvector_length</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1af31d68b36801e6ffc84e971265b9be78" kind="variable"><name>check</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a6715b542d20ee58e1498f5a6d4034f8a" kind="variable"><name>c</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a732a876fa4f91d79ffe60f972160dfdd" kind="variable"><name>track</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a6b63ed81c9f02cd4ac205bdadae10213" kind="variable"><name>check1</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1ad813527476e073f49aed250f813e12ce" kind="variable"><name>fast_cnt</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1afb59e89004c5cef08c616f4ea454c27b" kind="variable"><name>late_cnt</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a4af308ea38643b71fc859b5f68a5104a" kind="variable"><name>flag1</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a810022117f9f74e0cb4da3878f448e32" kind="variable"><name>new_sync_pos</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1af39f781b1e5c300fb43748a5422823dc" kind="variable"><name>initial_no_items</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1aac8894a2311eda328380ebd43be18d6f" kind="variable"><name>no_items</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1abaf2b1f1fc8b21655e2af88fb6f80921" kind="variable"><name>cnt_1stop</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a560744f564251e897a9b0f458f97f056" kind="variable"><name>cnt_plus1</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a7628b99dae8bbd5bfa48793ba2b80f61" kind="variable"><name>cnt4</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a2c53c305e4ee20b1055c83128cd966e7" kind="variable"><name>adj_th</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a56ec1878f9a16fb4cb89cb8da614a656" kind="variable"><name>sig_ad</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1ad5b1a02d6c250b3e03b5ce85858e80bd" kind="variable"><name>sig_mid</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a849fef9a252838c8f68cba0403b2770f" kind="variable"><name>sig_re</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a118dcbef72dd9c107888714ee93f520d" kind="variable"><name>delta</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1aa3bf8e64791be1889d51a5de64cade0b" kind="variable"><name>delta_stp</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a1ff810acc5e1d0d78bddb816e3136a7d" kind="variable"><name>a</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a6779a8b3fa5ec25520dfe0394f5955bc" kind="variable"><name>code</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1af771be4b3f37eb6d967dbbef1feee9aa" kind="variable"><name>reg_err</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1aaf9525845ac54e97fce7f8870cfc8c50" kind="variable"><name>d_decim</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a9009c19053b08c36e36bbf45d9a4962a" kind="variable"><name>in_buffer</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a8f5608b0f626d2f9606b002732cca3c1" kind="variable"><name>sig</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1ab38a68ceb038a851350899c7501961a9" kind="variable"><name>data_buffer</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1ac60e6ba9990e048e9ced3e4a3a54dec4" kind="function"><name>zcz_codesync_despreading_impl</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a189c2fac44f4062ab48a82951268ce65" kind="function"><name>~zcz_codesync_despreading_impl</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1adfab48e9087390cd8cd66b855d4c6450" kind="function"><name>set_bitvector_size</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1ae8fff9f117ce57756f69d307ea784b22" kind="function"><name>set_bitvector</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a0d6206b982d85ee23c2ca82807037872" kind="function"><name>synchronization</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a48deb3229c6400dc1f04a9b35c888d92" kind="function"><name>skip_data</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a8ede0e060c4802fb57818b3035aeadae" kind="function"><name>code_tracking</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__codesync__despreading__impl_1a53b2dee85c5ef5c39a56ec98c90b2093" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1spreading_1_1zcz__despreading" kind="class"><name>gr::spreading::zcz_despreading</name>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading_1a7f18d90c5665e85b9e8c536e1f80c100" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading_1afbe2e1fd878345e7a2b114de80cc5ff6" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1spreading_1_1zcz__despreading__impl" kind="class"><name>gr::spreading::zcz_despreading_impl</name>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a3b1cbaac5a928570ae8c696015140306" kind="variable"><name>bit_vector_length</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1aa611a179aed54f11e2f9d6a356a03860" kind="variable"><name>despreading_code</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a01f04900dcc40cba4084a00ad048d1d0" kind="variable"><name>check1</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a4536b7527ce7095735c02ce1e6d0ddb5" kind="variable"><name>initial_no_items</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ad11819a3122ede2c0f4b8e94b9ccfa7b" kind="variable"><name>no_items</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ad83e703b503c12338ecfee663dd65854" kind="variable"><name>new_sync_pos</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a4a1e777b936ce9e0101a4de2c078fabc" kind="variable"><name>check</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ad3c622462e60a8b6af5015718cf113d4" kind="variable"><name>track</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1abdc5df8c7ec13683e9be63e32b6bdb8a" kind="variable"><name>d_decim</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a88f6c2562f8860eb037bd7875860e2da" kind="variable"><name>code_len</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a35d827f3fe7633114aa985d62903874f" kind="variable"><name>in_buffer</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a74b78e43182278acebefeb4ad6fc3007" kind="variable"><name>sig</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ac86b45b6de9cee8ca53b857e551bd834" kind="function"><name>zcz_despreading_impl</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ae06db6724b371689858aba9290eec115" kind="function"><name>~zcz_despreading_impl</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a6b4f40c629f5f7b9b73c3f691906fa51" kind="function"><name>set_bit_length</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ad32bdbf1efde92e68fb6713c410c558e" kind="function"><name>set_bitvector</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1ac3d719b76b51e53fddcba62b2f3039d6" kind="function"><name>skip_data</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1a4d6c58bad6c5b4fcfe4df89877b6ff92" kind="function"><name>synchronization</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__despreading__impl_1afdd862327de1c3e33c461d690fa92952" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1spreading_1_1zcz__spreading" kind="class"><name>gr::spreading::zcz_spreading</name>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading_1a25f93c97d9a79031eb7656138cce07e3" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading_1a810ce2d85790aa43f507b32c31b9f384" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1spreading_1_1zcz__spreading__impl" kind="class"><name>gr::spreading::zcz_spreading_impl</name>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading__impl_1a98c1341498da9f7b63ff8e97cae095bd" kind="variable"><name>spreading_code</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading__impl_1a2ac55d6649be78094be0ea0b0968fd24" kind="variable"><name>bit_vector_length</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading__impl_1a7515cbe5fe63fba5f0a5b362a41d167b" kind="function"><name>zcz_spreading_impl</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading__impl_1af664f45f991e7febfd67be99b5d8f47b" kind="function"><name>~zcz_spreading_impl</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading__impl_1af2998cd06d869fb67c81bc54780ac5f2" kind="function"><name>set_bit_length</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading__impl_1a37ef5af6f08366a26b9f5690709cd967" kind="function"><name>set_spread_code</name></member>
+    <member refid="classgr_1_1spreading_1_1zcz__spreading__impl_1ac91acb87d3af968c229ee306009afc96" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1spreading" kind="namespace"><name>gr::spreading</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a0f0e8944b0cb81e9636b9988323d93c6" kind="define"><name>SPREADING_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="zcz__codesync__despreading_8h" kind="file"><name>zcz_codesync_despreading.h</name>
+  </compound>
+  <compound refid="zcz__codesync__despreading__impl_8h" kind="file"><name>zcz_codesync_despreading_impl.h</name>
+  </compound>
+  <compound refid="zcz__despreading_8h" kind="file"><name>zcz_despreading.h</name>
+  </compound>
+  <compound refid="zcz__despreading__impl_8h" kind="file"><name>zcz_despreading_impl.h</name>
+  </compound>
+  <compound refid="zcz__spreading_8h" kind="file"><name>zcz_spreading.h</name>
+  </compound>
+  <compound refid="zcz__spreading__impl_8h" kind="file"><name>zcz_spreading_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_6631c86d845d35c65122c956533d500b" kind="dir"><name>spreading</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>
